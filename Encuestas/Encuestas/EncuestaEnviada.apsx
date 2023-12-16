@@ -1,0 +1,18 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="EncuestaEnviada.aspx.cs" Inherits="TuNamespace.EncuestaEnviada" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Encuesta Enviada Correctamente</title>
+    <link rel="stylesheet" href="estilos.css"> <!-- Si tienes un archivo de estilos externo -->
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container">
+            <h1>¡Encuesta Enviada!</h1>
+            <p>Tu mensaje de confirmación aquí...</p>
+            <!-- Puedes mostrar detalles de la encuesta aquí si los pasaste desde la página anterior -->
+        </div>
+    </form>
+</body>
+</html>
